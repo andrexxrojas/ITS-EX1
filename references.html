@@ -1,0 +1,148 @@
+<style>
+    @font-face{
+        font-family: "IBM Plex Sans";
+        src: url(IBMPlexSans-Regular.ttf)
+    }
+    @font-face{
+        font-family: "IBM Plex Sans Light";
+        src: url(IBMPlexSans-Light.ttf)
+    }
+    *{
+        margin: 0;
+    }
+    body{
+        margin: 0;
+        background-color: #141414;
+        color: #ececec;
+    }
+    body::-webkit-scrollbar{
+        background-color: #141414;
+    }
+    body::-webkit-scrollbar-thumb{
+        background-color: transparent;
+        border: 1px solid #ececec;
+        border-radius: 5px;
+    }
+    #title{
+        font-size: 35px;
+        font-family: "IBM Plex Sans", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+    }
+    ul{
+        display: flex;
+        align-items: center;
+    }
+    ul li{
+        list-style-type: none;
+        font-family: "IBM Plex Sans", sans-serif;
+        text-align: center;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+    ul li:hover{
+        color: #fc6e5e;
+    }
+    a, a:hover, a:focus, a:active{
+        text-decoration: inherit;
+        color: inherit;
+    }
+    nav{
+        margin: 10px 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 15px;
+        user-select: none;
+    }
+    .content{
+        margin: 0 50px;
+        padding: 5px 10px;
+
+    }
+    .content h3{
+        font-family: "IBM Plex Sans Light", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: justify;
+    }
+    .content h1{
+        font-family: "IBM Plex Sans", sans-serif;
+        font-size: 25px;
+    }
+    blockquote{
+        font-family: "IBM Plex Sans Light", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        text-align: justify;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container img{
+        min-width: 200px;
+        max-width: 800px;
+    }
+    .container .text-container{
+        min-width: 200px;
+        max-width: 800px;
+        margin: 20px 0;
+    }
+    hr{
+        background-color: #fc6e5e;
+    }
+    @media (max-width: 767px){
+        #title{
+            display: none;
+        }
+    }
+</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CORONAVIRUS INFORMATION</title>
+</head>
+<body>
+    <nav>
+        <h1 id="title">CORONAVIRUS</h1>
+        <ul>
+            <li><a href="rojas_ex1.html">Home</a></li>
+            <li><a href="discussion.html">Discussion</a></li>
+            <li><a href="references.html">References</a></li>
+        </ul>
+    </nav>
+
+    <div class="content">
+        <div class="container">
+            <div class="text-container">
+                <h1>References (APA Format)</h1>
+                <br>
+                <h3>
+                    World Health Organization. (n.d.). Coronavirus. World Health Organization. Retrieved November 18,
+                    2022, from https://www.who.int/health-topics/coronavirus#tab=tab_1
+                    <br>
+                    <br>
+                    World Health Organization. (n.d.). Impact of covid-19 on people's livelihoods, their health and
+                    our Food Systems. World Health Organization. Retrieved November 18, 2022, from https://www.who.int
+                    /news/item/13-10-2020-impact-of-covid-19-on-people%27s-livelihoods-their-health-and-our-food-systems
+                    <br>
+                    <br>
+                    BS, M. (n.d.). Covid-19: An insight into SARS-COV-2 pandemic originated at Wuhan City in Hubei Province
+                    of China. COVID-19: An Insight into SARS-CoV-2 Pandemic Originated at Wuhan City in Hubei Province of China.
+                    Retrieved November 18, 2022, from https://clinmedjournals.org/articles/jide/journal-of-infectious-diseases-and
+                    -epidemiology-jide-6-146.php?jid=jide
+                </h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
